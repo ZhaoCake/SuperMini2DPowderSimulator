@@ -385,7 +385,6 @@ def simulate_case(out_dir: str | Path, cfg: SimConfig, seed: int = 0) -> Path:
 
     # preview
     if preview_frame is not None and preview_pts is not None:
-        import cv2
         try:
             from .utils import draw_circle_boundary, draw_polyline
         except ImportError:  # pragma: no cover
