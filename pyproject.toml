@@ -1,0 +1,15 @@
+[project]
+name = "drum2d"
+version = "0.1.0"
+description = "2D rotating drum window synthetic video + CV baseline detection + evaluation"
+requires-python = ">=3.9"
+dependencies = [
+  "numpy",
+  "opencv-python",
+  "scipy",
+  "matplotlib",
+  "tqdm",
+]
+
+[tool.uv]
+# Keeps uv usage optional; you can still use plain pip.
